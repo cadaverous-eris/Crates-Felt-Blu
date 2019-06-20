@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cfb",
+  "name": "Crates Felt Blue",
+  "description": "A small mod to prevent Immersive Engineering's crates from keeping their inventory when broken.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["mangoose"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
