@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[36.1,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/the-realest-stu/Crates-Felt-Blu/issues"
+
+[[mods]]
+modId = "cratesfeltblu"
+version = "${file.jarVersion}"
+displayName = "Crates Felt Blu"
+authors = "mangoose"
+description = "A small mod to prevent Immersive Engineering's crates from keeping their inventory when broken."
+logoFile = "pack.png"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/crates-felt-blu"
+
+[[dependencies.cratesfeltblu]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16,1.17)"
+
+[[dependencies.cratesfeltblu]]
+modId = "forge"
+mandatory = true
+versionRange = "[36.1,)"
+
+[[dependencies.cratesfeltblu]]
+modId = "immersiveengineering"
+mandatory = true
+versionRange = "[1.16.5-4.2.4-134,)"
